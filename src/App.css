@@ -1,0 +1,106 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+
+.agencylist {
+    background-color:#F5F5F5;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color:#79bbff;
+    padding:5px;
+    list-style:none;
+    margin: 5px 5px 5px 5px;
+
+}
+
+.agencyselect {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color:#79bbff;
+    padding:5px;
+    list-style:none;
+    margin: 5px 0px 5px 0px;
+}
+
+
+.color:hover
+{
+    background:#53a7ea;
+}
+
+
+.agency {
+    margin: auto;
+}
+
+h2 {
+    color:#004d4d;
+}
+
+
+.myButton {
+    background-color:#79bbff;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #84bbf3;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    margin: 1px 1px 1px 1px;
+}
+.myButton:hover {
+    background-color:#378de5;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+.yearchart {
+    width:100%;
+    min-height: 300px;
+    margin: 0 auto;
+}
+
+.monthchart {
+    width:100%;
+    min-height: 300px;
+    margin: 0 auto;
+}
+
+.service-chart-title{
+    text-align: left;
+}
+
+.service-type-container{
+    border-bottom: dotted;
+    border-bottom-color: darkgray;
+}
